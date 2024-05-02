@@ -207,11 +207,13 @@ body {
 
 .carrier-container {
   --width: 5;
+  touch-action: none;
 }
 
 .carrier-container-vertical {
   --height: 5;
   --width: 1;
+  touch-action: none;
 }
 
 .hidden-info {
