@@ -299,3 +299,7 @@ body {
   opacity: 1;
   text-decoration: none;
 }
+
+.draggable {
+  touch-action: none
+}
