@@ -28,6 +28,11 @@ io.on('connection', socket => {
     }
   }
 
+  socket.emit('message', { message: 'Welcome to the Real Time Web Chat' });
+    socket.on('send', function (data) {
+        io.sockets.emit('message', data);
+    });
+
 
 
   // Tell the connecting client what player number they are
