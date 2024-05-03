@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //Ships
   const shipArray = [
     {
-      name: 'destroyer',
+      name: 'cruiser',
       directions: [
         [0, 1],
         [0, width]
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
     },
     {
-      name: 'cruiser',
+      name: 'destroyer',
       directions: [
         [0, 1, 2],
         [0, width, width*2]
