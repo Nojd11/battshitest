@@ -28,7 +28,7 @@ io.on('connection', socket => {
     }
   }
 
-  socket.emit('message', { message: 'Welcome to the Real Time Web Chat' });
+  socket.emit('message', { message: 'Welcome To Ingame Chat' });
     socket.on('send', function (data) {
         io.sockets.emit('message', data);
     });
