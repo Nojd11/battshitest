@@ -80,7 +80,7 @@ body {
 .taken,
 .ship {
   position: relative;
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsl(0, 17%, 6%);
 }
 
 .taken.start.vertical,
