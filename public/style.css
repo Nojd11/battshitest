@@ -186,12 +186,12 @@ body {
 }
 
 .submarine-container,
-.cruiser-container {
+.destroyer-container {
   --width: 3;
 }
 
 .submarine-container-vertical,
-.cruiser-container-vertical {
+.destroyer-container-vertical {
   --height: 3;
   --width: 1;
 }
